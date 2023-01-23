@@ -2,7 +2,8 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-<img width="1266" alt="Screen" src="src\assets\img\screen.png">
+![portfolio-gif](https://user-images.githubusercontent.com/107396314/213957941-8e2ef9e9-842d-4f47-aef6-a10126611c81.gif)
+
 
 Built using:
 
