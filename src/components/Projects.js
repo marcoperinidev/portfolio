@@ -11,34 +11,22 @@ export const Projects = () => {
 
   const projects = [
     {
-      title: "Business Startup",
-      description: "Design & Development",
+      title: "E-commerce Simulation Site",
+      description: "HTML, CSS, JS, Laravel, Livewire, Blender",
       imgUrl: projImg1,
+      Github: "https://vmcodegg.demohackademy.it/",
     },
     {
-      title: "Business Startup",
-      description: "Design & Development",
+      title: "Business Shop Simulator",
+      description: "HTML, CSS, JS, Bootstrap",
       imgUrl: projImg2,
+      Github: "https://github.com/marcoperinidev/riproduzione-sito_progettoStanza4",
     },
     {
-      title: "Business Startup",
-      description: "Design & Development",
+      title: "Todo List",
+      description: "React",
       imgUrl: projImg3,
-    },
-    {
-      title: "Business Startup",
-      description: "Design & Development",
-      imgUrl: projImg1,
-    },
-    {
-      title: "Business Startup",
-      description: "Design & Development",
-      imgUrl: projImg2,
-    },
-    {
-      title: "Business Startup",
-      description: "Design & Development",
-      imgUrl: projImg3,
+      Github: "https://github.com/marcoperinidev/react-todo",
     },
   ];
 
@@ -51,17 +39,15 @@ export const Projects = () => {
               {({ isVisible }) =>
               <div className={isVisible ? "animate__animated animate__fadeIn": ""}>
                 <h2>Projects</h2>
-                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                <p>Here are a few completed Projects</p>
                 <Tab.Container id="projects-tabs" defaultActiveKey="first">
                   <Nav variant="pills" className="nav-pills mb-5 justify-content-center align-items-center" id="pills-tab">
                     <Nav.Item>
-                      <Nav.Link eventKey="first">Tab 1</Nav.Link>
+                      <Nav.Link eventKey="first">Projects</Nav.Link>
                     </Nav.Item>
+                    
                     <Nav.Item>
-                      <Nav.Link eventKey="second">Tab 2</Nav.Link>
-                    </Nav.Item>
-                    <Nav.Item>
-                      <Nav.Link eventKey="third">Tab 3</Nav.Link>
+                      <Nav.Link eventKey="third">~$ whoami</Nav.Link>
                     </Nav.Item>
                   </Nav>
                   <Tab.Content id="slideInUp" className={isVisible ? "animate__animated animate__slideInUp" : ""}>
@@ -79,11 +65,14 @@ export const Projects = () => {
                         }
                       </Row>
                     </Tab.Pane>
-                    <Tab.Pane eventKey="section">
-                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque quam, quod neque provident velit, rem explicabo excepturi id illo molestiae blanditiis, eligendi dicta officiis asperiores delectus quasi inventore debitis quo.</p>
-                    </Tab.Pane>
+                    
                     <Tab.Pane eventKey="third">
-                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque quam, quod neque provident velit, rem explicabo excepturi id illo molestiae blanditiis, eligendi dicta officiis asperiores delectus quasi inventore debitis quo.</p>
+                      <p className="lh-6">I introduce myself, I am Marco Perini and I am 33 years old.<br></br> 
+                          I have always been passionate about the tech world, I have just completed a course with Aulab as a <strong>Full Stack Web Developer</strong>, then I followed several courses on <em><strong>ReactJS</strong></em> on Udemy <em><strong>(Schwarzmüller, Kent C. Dodds)</strong></em>, <em><strong>ThreeJS (Bruno Simon)</strong></em>, <em><strong>Java (Schwarzmüller)</strong></em> and developed autonomous projects for small regional realities.<br></br>
+                          <br></br>
+                          I am dynamic, enthusiastic and very curious, I love learning new technology and languages and I learn them pretty quickly.
+                          <br></br>Currently be able to work closely with
+                          Senior Developer to improve my skills is a focal point for me.</p>
                     </Tab.Pane>
                   </Tab.Content>
                 </Tab.Container>

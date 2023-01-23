@@ -47,12 +47,22 @@ p, a, li, button, ul {
   padding: 0;
   line-height: normal;
   text-decoration: none;
+  color:#fff !important;
+}
+
+.p-whoami{
+  padding: normal;
 }
 
 .p-about{
   color: white !important;
   font-size: 19px !important;
+  background-color: rgba(0, 0, 0, 0.70);
+  border-radius: 10px;
+  padding: 0.5rem;
 }
+
+
 
 a:hover {
   text-decoration: none;
@@ -396,7 +406,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   overflow: hidden;
 }
 .project .nav.nav-pills .nav-item {
-  width: 33.33333%;
+  width: 50%;
 }
 .project .nav.nav-pills .nav-link {
   background-color: transparent;

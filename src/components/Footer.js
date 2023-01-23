@@ -14,7 +14,7 @@ export const Footer = () => {
             <img src={logo} alt="Logo" />
           </Col>
           <Col size={12} sm={6} className="text-center text-sm-end">
-            <div className="social-icon">
+            <div className="social-icon my-3 mb-0 pb-0">
               <a href="https://www.linkedin.com/in/pmfullstack/" target={"_blank"} rel="noreferrer"><img src={navIcon1} alt="Icon" /></a>
               <a href="https://github.com/marcoperinidev" target={"_blank"} rel="noreferrer"><img src={navIcon2} alt="Icon" /></a>
               <a href="https://www.instagram.com/marco_perini_dev/" target={"_blank"} rel="noreferrer"><img src={navIcon3} alt="Icon" /></a>
