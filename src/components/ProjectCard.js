@@ -9,7 +9,7 @@ export const ProjectCard = ({ title, description, imgUrl, Github }) => {
           <h4>{title}</h4>
           <span>{description}</span>
           <Row>
-            <a href ={Github} target={"_blank"} rel="noreferrer"><button className="btn btn-light github-repo-project my-3" type="submit">GitHub Repository</button></a>
+            <a href ={Github} target={"_blank"} rel="noreferrer"><button className="btn btn-dark github-repo-project my-3" type="submit">GitHub Repository</button></a>
           </Row>
         </div>
       </div>

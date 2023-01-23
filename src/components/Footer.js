@@ -19,7 +19,7 @@ export const Footer = () => {
               <a href="https://github.com/marcoperinidev" target={"_blank"} rel="noreferrer"><img src={navIcon2} alt="Icon" /></a>
               <a href="https://www.instagram.com/marco_perini_dev/" target={"_blank"} rel="noreferrer"><img src={navIcon3} alt="Icon" /></a>
             </div>
-            <p>Marco Perini Copyright 2022. All Rights Reserved</p>
+            <p>Marco Perini Copyright 2023. All Rights Reserved</p>
           </Col>
         </Row>
       </Container>
