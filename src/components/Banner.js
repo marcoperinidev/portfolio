@@ -18,17 +18,18 @@ export const Banner = () => {
               <div className={isVisible ? "animate__animated animate__fadeIn" : ""}>
                 <span className="tagline">Welcome to my Portfolio</span>
                         <h1>Hey! I'm Marco{<br/>}
-                          <span>
+                          <div className="type-container">
                             <Typewriter
                               words={['Web Developer','Web Designer']}
                               loop={0}
                               typeSpeed={100}
                               deleteSpeed={100}
                             />
-                          </span>
-                    <span>
-                        <Cursor cursorStyle='|'/>
-                    </span>
+                              <span>
+                                <Cursor cursorStyle='|'/>
+                              </span>
+                          </div>
+                    
                 </h1>
                   <p className="p-about"><strong>Solving problems</strong> since 1989. Given that I thought development would've been a good life choice. So after a coding bootcamp, dedication and no sleep I try to help others building their presence on the web taking care of all the process. </p>
                   </div>}</TrackVisibility>
