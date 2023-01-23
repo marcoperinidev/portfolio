@@ -32,9 +32,16 @@ export const Banner = () => {
                     </span>
                 </h1>
                   <p className="p-about"><strong>Solving problems</strong> since 1989. Given that I thought development would've been a good life choice. So after a coding bootcamp, dedication and no sleep I try to help others building their presence on the web taking care of all the process. </p>
-                  <button onClick={() => console.log('connect')}>Let’s Connect <ArrowRightCircle size={25} /></button>
-              </div>}
-            </TrackVisibility>
+                  </div>}</TrackVisibility>
+                  <TrackVisibility>
+                  {({ isVisible }) =>
+                  <div className={isVisible ? "animate__animated animate__fadeIn" : ""}>
+
+                  
+                    <a style={{textDecoration: 'none'}} href="#connect"><button><span> Let’s Connect</span><ArrowRightCircle size={25} /> </button></a>
+                  
+                  </div>}
+              </TrackVisibility>
           </Col>
           <Col xs={12} md={6} xl={5}>
             <TrackVisibility>
