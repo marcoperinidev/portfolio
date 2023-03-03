@@ -37,19 +37,19 @@ export const Skills = () => {
                         <p>These are the most interesting Languages that I know.<br></br> Now I'm studying Java Springboot and Blackchains at the Michigan University online platform.</p>
                         <Carousel responsive={responsive} infinite={true} className="owl-carousel owl-theme skill-slider">
                             <div className="item">
-                                <img src={meter1} alt="Image" />
+                                <img src={meter1} alt="Javascript" />
                                 <h5>Javascript</h5>
                             </div>
                             <div className="item">
-                                <img src={meter2} alt="Image" />
+                                <img src={meter2} alt="React" />
                                 <h5>React</h5>
                             </div>
                             <div className="item">
-                                <img src={meter3} alt="Image" />
+                                <img src={meter3} alt="ThreeJS" />
                                 <h5>ThreeJS</h5>
                             </div>
                             <div className="item item4">
-                                <img src={meter4} alt="Image" />
+                                <img src={meter4} alt="Java" />
                                 <h5>Java</h5>
                             </div>
                         </Carousel>
@@ -57,7 +57,7 @@ export const Skills = () => {
                 </div>
             </div>
         </div>
-        <img className="background-image-left" src={colorSharp} alt="Image" />
+        <img className="background-image-left" src={colorSharp} alt="background-left" />
     </section>
   )
 }
