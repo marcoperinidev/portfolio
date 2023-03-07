@@ -3,6 +3,21 @@ import contactImg from "../assets/img/contact-img.svg";
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
 
+const handleDownload = () => {
+  fetch('../../public/cv.pdf')
+    .then(response => response.blob())
+    .then(blob => {
+      const url = window.URL.createObjectURL(new Blob([blob]));
+      const link = document.createElement('a');
+      link.href = url;
+      link.setAttribute('download', 'cv.pdf');
+      document.body.appendChild(link);
+      link.click();
+      link.parentNode.removeChild(link);
+    });
+};
+
+
 export const Contact = () => {
   
   return (
@@ -37,7 +52,7 @@ export const Contact = () => {
                   </Row>
                   <Row>
                     <Col size={12} sm={6} className="contact-info">
-                    <a href="../../public/cv.pdf" download><button className="btn-download">Download CV</button></a>
+                    <button onClick={handleDownload}>Download CV</button>
                     </Col>
                   </Row>
               </div>}
