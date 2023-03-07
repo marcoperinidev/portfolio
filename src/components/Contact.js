@@ -37,7 +37,7 @@ export const Contact = () => {
                   </Row>
                   <Row>
                     <Col size={12} sm={6} className="contact-info">
-                    <a href="../../public/cv.pdf" download={'../../public/cv.pdf'}><button className="btn-download">Download CV</button></a>
+                    <a href="../../public/cv.pdf" download><button className="btn-download">Download CV</button></a>
                     </Col>
                   </Row>
               </div>}
