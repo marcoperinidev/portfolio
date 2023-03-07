@@ -4,7 +4,7 @@ import 'animate.css';
 import TrackVisibility from 'react-on-screen';
 
 const handleDownload = () => {
-  fetch('../../public/cv.pdf')
+  fetch('https://mpdeveloper.vercel.app/cv.pdf')
     .then(response => response.blob())
     .then(blob => {
       const url = window.URL.createObjectURL(new Blob([blob]));
