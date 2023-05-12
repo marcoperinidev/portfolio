@@ -34,7 +34,7 @@ export const Skills = () => {
                 <div className="col-12">
                     <div className="skill-bx wow zoomIn">
                         <h2>Languages</h2>
-                        <p>These are the most interesting Languages that I know.<br></br> Now I'm studying Java Springboot and Blackchains at the Michigan University online platform.</p>
+                        <p>These are the most interesting Languages that I know.<br></br> Now I'm studying Java Springboot and Blockchain at the Michigan University online platform.</p>
                         <Carousel responsive={responsive} infinite={true} className="owl-carousel owl-theme skill-slider">
                             <div className="item">
                                 <img src={meter1} alt="Javascript" />
@@ -51,6 +51,10 @@ export const Skills = () => {
                             <div className="item item4">
                                 <img src={meter4} alt="Java" />
                                 <h5>Java</h5>
+                            </div>
+                            <div className="item item4">
+                                <img src={meter4} alt="Java" />
+                                <h5>Spring</h5>
                             </div>
                         </Carousel>
                     </div>
