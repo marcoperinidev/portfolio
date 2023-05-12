@@ -2,6 +2,8 @@ import meter1 from "../assets/img/meter1.svg";
 import meter2 from "../assets/img/meter2.svg";
 import meter3 from "../assets/img/meter3.svg";
 import meter4 from "../assets/img/meter4.svg";
+import meter5 from "../assets/img/meter5.svg";
+import meter6 from "../assets/img/meter6.svg";
 import Carousel from 'react-multi-carousel';
 import 'react-multi-carousel/lib/styles.css';
 import colorSharp from "../assets/img/color-sharp.png"
@@ -52,9 +54,13 @@ export const Skills = () => {
                                 <img src={meter4} alt="Java" />
                                 <h5>Java</h5>
                             </div>
-                            <div className="item item4">
-                                <img src={meter4} alt="Java" />
+                            <div className="item item5">
+                                <img src={meter5} alt="Spring" />
                                 <h5>Spring</h5>
+                            </div>
+                            <div className="item6">
+                                <img src={meter6} alt="Docker" />
+                                <h5>Docker</h5>
                             </div>
                         </Carousel>
                     </div>

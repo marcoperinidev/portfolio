@@ -376,6 +376,42 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   margin: 0 auto 15px auto;
   width: 80%;
 }
+
+.item6{
+  margin: 0 auto 15px auto;
+  width: 80%;
+}
+
+.item6 img{
+  margin: -50px;
+  padding: 0;
+  width: 100%;
+}
+
+.item6 h5{
+  margin: 18px;
+}
+
+@media only screen and (max-width: 600px) {
+  .item6 img {
+    margin: -20px;
+
+  }
+  .item6 h5{
+    margin-top: 15px;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .item6 img {
+    margin: -25px;
+
+  }
+  .item6 h5{
+    margin-top: 15px;
+  }
+}
+
 .background-image-left {
   top: 28%;
   position: absolute;
@@ -782,3 +818,9 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   letter-spacing: 0.5px;
   margin-top: 20px;
 }
+
+/*
+.item-docker{
+  height: 80%;
+  width: 80%;
+}*/
